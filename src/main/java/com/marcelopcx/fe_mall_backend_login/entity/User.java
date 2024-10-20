@@ -27,7 +27,7 @@ public class User implements UserDetails {
     private String lastName;
     private String email;
     private String phone;
-    private String direction;
+    private String address;
     private String password;
 
     @Enumerated(EnumType.ORDINAL)
@@ -77,12 +77,12 @@ public class User implements UserDetails {
         this.phone = phone;
     }
 
-    public String getDirection ( ) {
-        return direction;
+    public String getAddress( ) {
+        return address;
     }
 
-    public void setDirection (String direction) {
+    public void setAddress(String direction) {
 
-        this.direction = direction;
+        this.address = direction;
     }
 }

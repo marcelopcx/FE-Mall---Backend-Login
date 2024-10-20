@@ -31,7 +31,7 @@ public class AuthServiceImpl implements AuthService {
                 .lastName(request.getLastName())
                 .email(request.getEmail())
                 .phone(request.getPhone())
-                .direction(request.getDirection())
+                .address(request.getAddress())
                 .password(passwordEncoder.encode(request.getPassword()))
                 .role(Role.ADMIN)
                 .build();
@@ -70,7 +70,7 @@ public class AuthServiceImpl implements AuthService {
                 .lastName(request.getLastName())
                 .email(request.getEmail())
                 .phone(request.getPhone())
-                .direction(request.getDirection())
+                .address(request.getAddress())
                 .password(passwordEncoder.encode(request.getPassword()))
                 .role(Role.EMPLOYEE)
                 .build();
