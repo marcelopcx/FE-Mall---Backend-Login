@@ -13,5 +13,6 @@ import java.util.Map;
 @AllArgsConstructor
 public class AuthResponse {
     private String token;
-    private Map<String, Object> tokenDetails;
+    private Long storeId;
+    private String storeRole;
 }
