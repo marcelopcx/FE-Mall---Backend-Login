@@ -1,0 +1,64 @@
+{
+  "libreria": [
+    {
+      "id": "6717c80a0eb61b3427cb77a7",
+      "nombreLibro": "Nombre_libro",
+      "editorial": "Editorial",
+      "autor": "Autor",
+      "genero": "Genero",
+      "precio": 100,
+      "descripcion": "Descripcion"
+    }
+  ],
+
+  "comida": [
+    {
+      "id": "67192505dea075e92296aea1",
+      "nombre": "Nombre",
+      "tamano": "Tamaño",
+      "ingredientes": "Ingredientes",
+      "precio": 100,
+      "descripcion": "Descripcion"
+    }
+  ],
+
+  "ropa": [
+    {
+      "id": "6717c9710eb61b3427cb77b2",
+      "marca": "Marca",
+      "categoria": "Categoria",
+      "talla": "Talla",
+      "genero": "Genero",
+      "precio": 100,
+      "descripcion": "Descripcion"
+    }
+  ],
+
+  "tecnologia": [
+    {
+      "id": "6717c9e20eb61b3427cb77b5",
+      "marca": "Marca",
+      "modelo": "Modelo",
+      "tipo": "Tipo",
+      "categoria": "Categoria",
+      "precio": 100,
+      "descripcion": "Descripcion"
+    }
+  ],
+
+  "facturas": [
+    {
+      "id": "6717cb390eb61b3427cb77b7",
+      "rif": "rif",
+      "tienda": "tienda",
+      "fecha": "2023-10-01T00:00:00Z",
+      "subtotal": 100,
+      "impuesto": 10,
+      "productos": [
+        {
+          "id": "67192505dea075e92296aea1"
+        }
+      ]
+    }
+  ]
+}
